@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components
+{
+    .li-style{
+  @apply py-4 w-full p-3 text-white hover:text-blue  hover:bg-white   cursor-pointer rounded-tl-full rounded-bl-full  hover:before:content-[''] hover:before:absolute hover:before:right-[15px]  hover:before:mt-[-66px]  hover:before:w-[50px] hover:before:h-[50px]  hover:before:rounded-[50%]  hover:before:shadow-[32px_35px_0px_13px_white]  hover:after:content-[''] hover:after:absolute hover:after:right-[15px]  hover:after:mt-[16px]  hover:after:w-[50px] hover:after:h-[50px]  hover:after:rounded-[50%]  hover:after:shadow-[32px_-35px_0px_13px_white]
+  
+  
+ 
+    }
+    .a-style{
+        @apply w-full ml-5 items-center flex  h-full  
+      
+  
+    }
+    .title{
+          @apply text-sm ml-5  font-bold
+    }
+    .titlecopy{
+        @apply text-blue 
+    }
+    .hovered{
+        @apply bg-white hover:before:content-[''] text-blue before:absolute before:right-[15px]  before:mt-[-66px]  before:w-[50px] before:h-[50px]  before:rounded-[50%]  before:shadow-[32px_35px_0px_13px_white] after:content-[''] after:absolute after:right-[15px]  after:mt-[16px]  after:w-[50px] after:h-[50px]  after:rounded-[50%]  after:shadow-[32px_-35px_0px_13px_white]
+    }
+    .btn{
+        @apply bg-blue text-white py-1 px-2 rounded-full
+    }
+    .btn1{
+        @apply bg-blue text-white py-1 px-2 rounded-full
+    }
+    .tro{
+       @apply h-[60px] text-[15px] border-b  hover:bg-blue hover:text-white cursor-pointer
+    }
+    .ww{
+        @apply hover:bg-blue p-1 cursor-pointer
+    }
+    .tit{
+       @apply text-2xl text-blue font-bold
+    }
+    .vvvv{
+      
+        @apply hover:bg-blue   cursor-pointer mb-3
+    }
+    .vvv,.vv,.v{
+        @apply group-hover:text-white
+    }
+    .w{
+        @apply group-hover:text-white
+    }
+    .navagetion.active{
+        @apply overflow-hidden xl:w-[80px] w-[100%] left-0 z-40
+    }
+    .main.active{
+        @apply xl:left-[80px] xl:w-[calc(100%-80px)] 
+    }
+    /* .navagetion{
+        @apply sm:w-[100%] md:w-[100%] md:left-[100%] sm:left-[100%]
+
+
+    } */
+    .main{
+        @apply sm:w-[100%] md:w-[100%] 
+
+    }
+}
